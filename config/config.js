@@ -18,7 +18,7 @@ module.exports = {
     root: rootPath,
     notifier: notifier,
     app: {
-      name: 'loyalty3 - Development'
+      name: 'testangular - Development'
     }
   },
   test: {
@@ -26,15 +26,15 @@ module.exports = {
     root: rootPath,
     notifier: notifier,
     app: {
-      name: 'loyalty3 - Test'
+      name: 'testangular - Test'
     }
   },
   production: {
-    db: 'mongodb://jc:jc@ds063307.mongolab.com:63307/jcajs',
+    db: 'mongodb://jc:jc@ds047438.mongolab.com:47438/heroku_app18315741',
     root: rootPath,
     notifier: notifier,
     app: {
-      name: 'loyalty3 - Production'
+      name: 'testangular - Production'
     }
   }
 }
