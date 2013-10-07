@@ -4,6 +4,7 @@ window.app = angular.module('loyalty3', ['ngCookies', 'ngResource', 'ui.bootstra
 window.angular.module('ngff.controllers', ['ngff.controllers.header', 'ngff.controllers.index', 'ngff.controllers.titles', 'ngff.controllers.currencys', 'ngff.controllers.countrys', 'ngff.controllers.subscriptions', 'ngff.controllers.customers', 'ngff.controllers.sites', 'ngff.controllers.companys', 'ngff.controllers.persons']);
 window.angular.module('ngff.services',['ngff.services.global','ngff.services.titles','ngff.services.currencys','ngff.services.countrys','ngff.services.subscriptions','ngff.services.customers','ngff.services.sites','ngff.services.companys','ngff.services.persons']);
 
+
 var numLoadings = 0;
 window.angular
 	.module('loadingOnAJAX', [])
